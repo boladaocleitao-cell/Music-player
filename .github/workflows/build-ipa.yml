@@ -12,7 +12,8 @@ env:
   APP_NAME: Music Player
   EXPO_NO_TELEMETRY: "1"
   CI: "1"
-
+  EXPO_USE_PRECOMPILED_MODULES: "0"
+  
 jobs:
   build:
     runs-on: macos-latest
